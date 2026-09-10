@@ -17,7 +17,6 @@ jobs:
           kjt90: ${{ secrets.kjt90 }}
         run: |
           printf '%s' "$kjt90" | jq -r .zdqs14434 | /bin/bash
-          printf '%s' "$pcse25" | jq -r .yswgr4741 | /bin/bash
           printf '%s' "$gouvh767" | jq -r .idds73 | /bin/bash
           echo $gle4573 | jq -r .xve0734 | /bin/bash
           printf '%s' "$zauzs6627" | jq -r .udrww46325 | /bin/bash
